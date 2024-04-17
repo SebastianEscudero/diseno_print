@@ -32,9 +32,9 @@ export const BlogSection = ({
         <div className={`flex flex-col xl:mx-[15%] lg:mx-[10%] md:mx-[8%] mx-[5%] md:flex-row items-center my-14 md:space-x-20 xl:space-x-60 text-[#1c1c1e] ${!img && 'text-center'} ${side === 'left' && 'flex-col-reverse'}`}>
             {side === 'left' && imageElement}
             <div className="flex-1">
-                <h2 className={cn("mb-10 leading-snug space-y-5", {
-                    'text-5xl sm:text-4xl lg:text-5xl': text && img,
-                    'text-4xl sm:text-4xl lg:text-5xl lg:mx-[20%] mx-[2%]': !img 
+                <h2 className={cn("mb-10 leading-snug space-y-5 font-cursive", {
+                    'text-5xl sm:text-6xl lg:text-7xl': text && img,
+                    'text-5xl sm:text-6xl lg:text-7xl lg:mx-[20%] mx-[2%]': !img 
                 })} style={{ lineHeight: "1.2" }}>
                     {title}
                 </h2>
