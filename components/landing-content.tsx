@@ -13,7 +13,7 @@ export const LandingContent = () => {
             </div>
             <BlogSection 
                 title="Estampados" 
-                text="Estampados de Productos para Regalos de todo tipo. Tazones, Mug térmicos, Llaveros, Tazones Lanyard , Morrales y más. Cada producto se realiza de forma personalizada con las imagenes, diseños fotos que necesites."
+                text="Estampados de Productos para Regalos de todo tipo. Tazones, Mug térmicos, Llaveros, Tazones Lanyard , Morrales y más. Cada producto se realiza de forma personalizada con las imagenes, diseños o fotos que necesites."
                 img="/estampo.jpg"
                 side="right"
             />
@@ -25,10 +25,12 @@ export const LandingContent = () => {
             />
             <BlogSection 
                 title="Impresiones"
-                text="Impresiones de todo tipo. Para emprendedoras y clientas que necesiten impresiones de calidad. Tarjetas, Stickers, Etiquetas, Flyers , Cuadros QR, Gift Card, Tags, Etiquetas adhesivas, Etiquetas para colgar, Imanes. Para Souvenirs y Recuerdos Babyshower, Bautizos, primera comunión Matrimonios , cumpleaños, aniversarios."
-                text2="Para cotizaciones Favor enviar medidas alto y ancho. Y las cantidades para poder ayudarte. Los valores mencionados son por impresión y corte. ( no incluye diseño )"
-                img="/impresion.jpg"
+                text="Impresiones de todo tipo. Para emprendedoras y clientas que necesiten impresiones de calidad. Tarjetas, Stickers, Etiquetas, Flyers , Cuadros QR, Gift Card, Tags, Etiquetas adhesivas, Etiquetas para colgar, Imanes. Para Souvenirs y Recuerdos Babyshower, Bautizos, primera comunión Matrimonios , cumpleaños y aniversarios."                img="/impresion.jpg"
                 side="right"
+            />
+            <BlogSection 
+                title="Para cotizar impresiones"
+                text="Para cotizaciones de impresiones porfavor enviar las medidas del alto y del ancho. Y las cantidades para poder ayudarte."
             />
             <div className="my-20 flex justify-center items-center">
                 <h2 className="font-cursive text-6xl md:text-8xl text-center">Clientas felices</h2>
