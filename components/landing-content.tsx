@@ -8,7 +8,7 @@ export const LandingContent = () => {
         <div>
             <div id="about" className="md:my-14 lg:my-16 my-10">
                 <BlogSection
-                    title="Diseño, Estampados, Imprimesiones, lo que tu necesites."
+                    title="Diseño, Impresiones y Estampados, lo que tú necesites."
                 />
             </div>
             <BlogSection 
@@ -27,7 +27,7 @@ export const LandingContent = () => {
                 title="Impresiones"
                 text="Impresiones de todo tipo. Para emprendedoras y clientas que necesiten impresiones de calidad. Tarjetas, Stickers, Etiquetas, Flyers , Cuadros QR, Gift Card, Tags, Etiquetas adhesivas, Etiquetas para colgar, Imanes. Para Souvenirs y Recuerdos Babyshower, Bautizos, primera comunión Matrimonios , cumpleaños, aniversarios."
                 text2="Para cotizaciones Favor enviar medidas alto y ancho. Y las cantidades para poder ayudarte. Los valores mencionados son por impresión y corte. ( no incluye diseño )"
-                img="/diseno.jpg"
+                img="/impresion.jpg"
                 side="right"
             />
             <div className="my-20 flex justify-center items-center">

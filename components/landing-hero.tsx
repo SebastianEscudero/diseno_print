@@ -59,7 +59,7 @@ export const LandingHero = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex-1 w-full rounded-sm md:block hidden">
+            <div className="flex-1 w-full rounded-sm">
                 <Image
                     src="/landing-image.jpg"
                     alt="Logo"

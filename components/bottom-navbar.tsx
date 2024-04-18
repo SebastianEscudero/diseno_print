@@ -30,28 +30,14 @@ export const BotNavbar = () => {
                 </div>
             </div>
             <div className="flex md:text-left text-center md:space-y-0 space-y-5 md:flex-row flex-col xl:mx-[15%] mx-[10%] text-xl justify-between pb-10 pt-10 md:space-x-4">
-                <ul>
-                    <li className="font-semibold mb-2">Horario de atención</li>
-                    <li>Lunes de 9:00 a 19:00</li>
-                    <li>Martes de 9:00 a 19:00</li>
-                    <li>Miercoles de 9:00 a 19:00</li>
-                    <li>Jueves de 9:00 a 19:00</li>
-                    <li>Viernes de 9:00 a 19:00</li>
+                <ul className="space-y-2">
+                    <li className="font-semibold mb-2 text-2xl underline">Horario de atención</li>
+                    <li>Lunes a Viernes 9:00 a 19:00</li>
+                    <li>Sabado cerrado</li>
+                    <li>Domingo cerrado</li>
+                    <li>Festivos cerrado</li>
                 </ul>
                 <ul className="space-y-3">
-                    <li>
-                        <Link
-                            className="text-xl hover:underline"
-                            href="/productos"
-                        >
-                            <Button
-                                className='text-xl font-semibold'
-                                variant={pathname === "/productos" ? 'secondary' : 'ghostDark'}
-                            >
-                                Productos
-                            </Button>
-                        </Link>
-                    </li>
                     <li>
                         <Link
                             className="text-xl hover:underline"

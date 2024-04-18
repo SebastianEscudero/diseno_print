@@ -31,21 +31,6 @@ const Sidebar = ({
                         <SheetClose asChild>
                             <Link
                                 className="my-2 text-lg hover:underline px-5"
-                                href="/productos"
-                            >
-                                <Button
-                                    className='w-full justify-start gap-1 text-lg font-semibold'
-                                    variant={pathname === "/productos" ? 'default' : 'ghost'}
-                                >
-                                    Productos
-                                </Button>
-                            </Link>
-                        </SheetClose>
-                    </div>
-                    <div className="flex flex-col w-full border-b">
-                        <SheetClose asChild>
-                            <Link
-                                className="my-2 text-lg hover:underline px-5"
                                 href="/about-us"
                             >
                                 <Button

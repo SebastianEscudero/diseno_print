@@ -17,11 +17,11 @@ export const BlogSection = ({
     side = 'right',
 }: BlogSectionProps) => {
     const imageElement = img && (
-        <div className="flex-1 w-full border max-w-[450px] border-[#837D7C]">
+        <div className="flex-1 w-full border max-w-[450px] border-[#837D7C] rounded-md">
             <Image
                 src={img}
                 alt="Logo"
-                className="w-full max-w-[450px]"
+                className="w-full max-w-[450px] rounded-md"
                 width={1920}
                 height={1080}
             />
@@ -33,20 +33,20 @@ export const BlogSection = ({
             {side === 'left' && imageElement}
             <div className="flex-1">
                 <h2 className={cn("mb-10 leading-snug space-y-5 font-cursive", {
-                    'text-5xl sm:text-6xl lg:text-7xl': text && img,
+                    'text-5xl sm:text-6xl lg:text-7xl md:text-left text-center': text && img,
                     'text-5xl sm:text-6xl lg:text-7xl lg:mx-[20%] mx-[2%]': !img 
                 })} style={{ lineHeight: "1.2" }}>
                     {title}
                 </h2>
                 {text && (
-                    <p className={cn("sm:text-lg lg:text-xl text-[#1c1c1e] md:mb-0 mb-5", {
+                    <p className={cn("text-2xl lg:text-2xl text-[#1c1c1e] md:mb-0 mb-5", {
                         'lg:mx-[20%] mx-[2%]': !img
                     })}>
                         {text}
                     </p>
                 )}
                 {text2 && (
-                    <p className={cn("mt-5 sm:text-lg lg:text-xl text-[#1c1c1e] md:mb-0 mb-5", {
+                    <p className={cn("mt-5 text-2xl lg:text-2xl text-[#1c1c1e] md:mb-0 mb-5", {
                         'lg:mx-[20%] mx-[2%]': !img
                     })}>
                         {text2}

@@ -21,16 +21,6 @@ export function NavigationMenuLanding() {
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <NavigationMenuLink
-                        href={"/productos"}
-                    >
-                        <Button
-                            className='justify-start my-[3px] text-[16px] mr-2 ml-2'
-                            variant={pathname === "/productos" ? 'default' : 'ghost'}
-                        >
-                            Productos
-                        </Button>
-                    </NavigationMenuLink>
-                    <NavigationMenuLink
                         href={"/about-us"}
                     >
                         <Button

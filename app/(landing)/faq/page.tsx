@@ -24,9 +24,21 @@ const AboutUs = () => {
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4" className="px-4">
-                    <AccordionTrigger className="font-semibold border-b border-black">Cuanto demoran en entregar?</AccordionTrigger>
+                    <AccordionTrigger className="font-semibold border-b border-black">¿Cuanto demoran en entregar?</AccordionTrigger>
                     <AccordionContent className="flex flex-col w-full gap-1 text-2xl">
                         <p>Recepcionamos pedidos con 3 a 4 días hábiles de anticipación.</p>
+                    </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-5" className="px-4">
+                    <AccordionTrigger className="font-semibold border-b border-black">¿Cómo comprar?</AccordionTrigger>
+                    <AccordionContent className="flex flex-col w-full gap-1 text-2xl">
+                        <p>Escribeme por Whatsapp o Instagram y dime que productos o servicios necesitas para poder ayudarte.</p>
+                    </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-6" className="px-4">
+                    <AccordionTrigger className="font-semibold border-b border-black">¿Cuáles son los metodos de pago?</AccordionTrigger>
+                    <AccordionContent className="flex flex-col w-full gap-1 text-2xl">
+                        <p>Por el momento solamente con transferencias.</p>
                     </AccordionContent>
                 </AccordionItem>
             </Accordion>
