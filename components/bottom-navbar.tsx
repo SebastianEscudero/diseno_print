@@ -13,7 +13,7 @@ export const BotNavbar = () => {
             <div className="py-10">
                 <div className="text-center mt-10 xl:mx-[25%] lg:mx-[20%] md:mx-[15%] mx-[5%]">
                     <h2 className="mb-10 text-4xl md:text-5xl lg:text-6xl">
-                        Escribeme hoy mismo para dar vida a tus ideas.
+                        Escríbeme hoy mismo para dar vida a tus ideas.
                     </h2>
                     <span className="space-x-3">
                         <Link href="https://www.instagram.com/disenoprintchicureo/">
