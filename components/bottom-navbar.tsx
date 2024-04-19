@@ -33,7 +33,7 @@ export const BotNavbar = () => {
                 <ul className="space-y-2">
                     <li className="font-semibold mb-2 text-2xl underline">Horario de atención</li>
                     <li>Lunes a Viernes 9:00 a 19:00</li>
-                    <li>Sabado cerrado</li>
+                    <li>Sábado cerrado</li>
                     <li>Domingo cerrado</li>
                     <li>Festivos cerrado</li>
                 </ul>
